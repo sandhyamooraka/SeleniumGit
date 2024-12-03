@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngframework.TestNG_3_Run_TCs_XML"/>
+      <methods>
+      <include name="selenium"></include>
+      <include name="techlearn"></include>
+      </methods>
+      <class name="testNG_XML.GoogleSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
