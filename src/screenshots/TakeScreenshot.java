@@ -34,7 +34,7 @@ public class TakeScreenshot {
 	 driver.get("https://www.google.com/");
 	 driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("sandhya");
 	 driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys(Keys.ENTER);
-	 Thread.sleep(3000);
+	 Thread.sleep(5000);
 	 //File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//FileUtils.copyFile(f, new File("D:\\Sandhya\\Screenshots\\ErrorPage.png"));
 	 Date date = new Date();
