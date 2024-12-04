@@ -11,7 +11,7 @@ public class Isdispled_enabled_selected {
   @Test
   public void isDisplayed() throws InterruptedException {
 	  
-	  Thread.sleep(3000);
+	  // Thread.sleep(3000);
 	  
 	  Boolean help = driver.findElement(By.linkText("help@flackre.com")).isDisplayed();
 	  
@@ -20,7 +20,7 @@ public class Isdispled_enabled_selected {
 		  driver.findElement(By.linkText("help@flackre.com")).click();
 	  }
 	  else {
-		  System.out.println("help not available");
+		  System.out.println("Help is not available");
 	  }
   }
   
@@ -29,7 +29,7 @@ public class Isdispled_enabled_selected {
 	  
 	  Thread.sleep(3000);
 	
-	   driver.get("https://www.techlearn.in/admin");
+	   driver.get("https://www.techlearn.in/wp-admin");
 	   boolean pswd = driver.findElement(By.xpath("//*[@id=\"user_pass\"]")).isEnabled();
 	   
 	   if(pswd) {
@@ -46,7 +46,7 @@ public class Isdispled_enabled_selected {
 	  
 	  Thread.sleep(3000);
 	
-	   driver.get("https://www.techlearn.in/admin");
+	   driver.get("https://www.techlearn.in/wp-admin");
 	   
 	   Boolean remind = driver.findElement(By.xpath("//*[@id=\"rememberme\"]")).isSelected();
 	   
