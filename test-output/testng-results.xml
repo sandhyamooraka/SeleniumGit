@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-19T14:41:28 IST" name="Default suite" finished-at="2024-11-19T14:42:03 IST" duration-ms="35228">
+  <suite started-at="2024-12-04T06:22:19 IST" name="Default suite" finished-at="2024-12-04T06:22:52 IST" duration-ms="33351">
     <groups>
     </groups>
-    <test started-at="2024-11-19T14:41:28 IST" name="Default test" finished-at="2024-11-19T14:42:03 IST" duration-ms="35228">
-      <class name="screenshots.TakeScreenshot">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:screenshots.TakeScreenshot@53aac487]" started-at="2024-11-19T14:41:28 IST" name="beforeTest" finished-at="2024-11-19T14:41:35 IST" duration-ms="7646" status="PASS">
+    <test started-at="2024-12-04T06:22:19 IST" name="Default test" finished-at="2024-12-04T06:22:52 IST" duration-ms="33351">
+      <class name="browserlaunch.GitDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:browserlaunch.GitDemo@72e5a8e]" started-at="2024-12-04T06:22:19 IST" name="beforeTest" finished-at="2024-12-04T06:22:43 IST" duration-ms="24464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="googleSerach()[pri:0, instance:screenshots.TakeScreenshot@53aac487]" started-at="2024-11-19T14:41:35 IST" name="googleSerach" finished-at="2024-11-19T14:41:55 IST" duration-ms="19617" status="PASS">
+        <test-method signature="testGit()[pri:0, instance:browserlaunch.GitDemo@72e5a8e]" started-at="2024-12-04T06:22:44 IST" name="testGit" finished-at="2024-12-04T06:22:52 IST" duration-ms="8488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleSerach -->
-        <test-method signature="googleSerachmethod()[pri:0, instance:screenshots.TakeScreenshot@53aac487]" started-at="2024-11-19T14:41:55 IST" name="googleSerachmethod" finished-at="2024-11-19T14:42:03 IST" duration-ms="7848" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSerachmethod -->
-      </class> <!-- screenshots.TakeScreenshot -->
+        </test-method> <!-- testGit -->
+      </class> <!-- browserlaunch.GitDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
